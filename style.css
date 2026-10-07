@@ -4,16 +4,16 @@ body{
     color: white;
     text-align: center;
 }
+
 .content{
     text-align: end;
     display: flex;
-    gap: 50px;
+    gap: 60px;
     color: white;
-    text-decoration: none;
     font-size: 14px;
-    font-weight: bold;
     border-bottom: 2px;
     padding-bottom: 12px;
+
 }
 .name{
     text-align: left;
@@ -26,23 +26,7 @@ body{
     padding: 30px;
 
 }
-#web{
-    
-    padding: 20px;
-    font-size: x-large;
-    font-family: cursive;
-    margin: 50px;
-}
 
-.member{
-    width: 180px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-#links{
-    color: white;
-}
 .skills{
     text-align: center;
     text-align: 50%;
@@ -54,17 +38,11 @@ body{
     padding: 90px;
     margin: 20px;
 }
-#kontakt{
-    text-decoration: underline;
-}
-.box p {
-    margin: 10px 0;
-}
+
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: #000000;
+    background-color: black;
     padding: 15px 30px;
     border-bottom: 2px solid antiquewhite;
 }
@@ -73,11 +51,47 @@ body{
     display: flex;
     gap: 15px;
 }
+.animation{
+    color: antiquewhite;
+    display: inline-block;
+    transition: all 1s ease;
+}
+.animation a:hover{
+    color: gold;
+    transform: translateY(-3px);
+}
+.image1{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+.image-center{
+    width: 100%;
+    max-width: 300px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid antiquewhite;
+}
+.projekt-discribe{
+    color: antiquewhite;
+
+}
 .logo {
     color: antiquewhite;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
+}
+
+.projekt-grid{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    background-color: rgb(50, 35, 35);
 }
 .site-header {
     background-color: black;
@@ -92,8 +106,7 @@ body{
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 5px 10px;
-    transition: color 0.2s ease, border-bottom 0.2s ease;
+    padding: 5px;
 }
 .hero {
     text-align: center;
@@ -113,7 +126,7 @@ body{
     color: antiquewhite;
     padding: 5px 12px;
     border-radius: 15px;
-    font-size: 0.85rem;
+    font-size: 25px;
     border: 1px solid antiquewhite;
 }
 h1, h2, h3 {
@@ -129,19 +142,20 @@ h1, h2, h3 {
     margin-top: 20px;
 }
 .btn {
-    display: inline-block;
+    display: flex;
     padding: 5px ;
     border-radius: 4px;
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
-    border: 2px solid antiquewhite;
+    border: 2px solid rgb(2, 2, 1);
     text-align: center;
 }
 
 .btn-primary {
-    background-color: antiquewhite;
-    color: #110011;
+    
+    color: antiquewhite;
+    width: 9%;
 }
 
 .btn-secondary {
@@ -150,10 +164,10 @@ h1, h2, h3 {
 }
 
 .btn:hover, .btn:focus {
-    opacity: 0.85;
-    outline: 2px solid white;
-}
+    opacity: 85%;
+    outline: 2px solid rgb(186, 24, 24);
 
+}
 
 .grid-layout {
     display: grid;
@@ -198,7 +212,9 @@ h1, h2, h3 {
 .contact-details {
     margin-bottom: 20px;
 }
-
+#footer{
+    color: red;
+}
 
 @media (min-width: 650px) {
     .site-header {
