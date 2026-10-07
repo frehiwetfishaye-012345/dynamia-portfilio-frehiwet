@@ -84,8 +84,14 @@ body{
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
+    display: inline-block;
+    transition: all 1s ease;
 }
 
+.logo a:hover{
+    color: gold;
+    transform: translateY(-3px);
+}
 .projekt-grid{
     display: flex;
     justify-content: center;
@@ -168,6 +174,7 @@ h1, h2, h3 {
     outline: 2px solid rgb(186, 24, 24);
 
 }
+
 
 .grid-layout {
     display: grid;
